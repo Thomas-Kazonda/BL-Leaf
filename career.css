@@ -1,0 +1,776 @@
+/*Preset Start*/
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    /* font-family: sans-serif; */
+    font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+ 
+
+}
+.divider{
+    width: 100%;
+    height: 5px;
+    background-color:black;
+}
+button{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(218, 120, 9);
+    cursor:grabbing;
+    border-radius: 8px;
+}
+/*End of preset*/
+
+/*Navigation styling starts*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(-50px);
+}
+.logo img{
+    width: 1.7rem;
+    height: auto;
+}
+.brandName{
+    font-family: sans-serif;
+    font-weight: bolder;
+    opacity: .4;
+
+}
+.brandName span{
+    color: rgb(218, 120, 9);
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+ nav ul li{
+    list-style: none;
+    font-weight: bold;
+    
+
+}
+ nav ul li a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    letter-spacing: 1px;
+    border-bottom: 2px solid white;
+    
+}
+ nav ul li a:hover{
+    border-bottom:3px solid rgb(189, 73, 7);
+}
+/*End of navigation styling*/
+.overall{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.eye-catcher{
+    
+    margin-top:20px;
+    width: 80%;
+    height: 100vh;
+    background: url(https://img.freepik.com/free-photo/corporate-workers-brainstorming-together_23-2148804534.jpg?size=626&ext=jpg&ga=GA1.1.1886647145.1713602003&semt=ais);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* transform: translateX(50%);*/
+    word-spacing: 10px;    font-family: sans-serif;
+    font-size: larger;
+    color: rgb(79, 79, 151);
+    margin-bottom: 100px;
+
+}
+.eye-catcher a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.Primary-Heading{
+    transform: translateY(-200px);
+   
+}
+.Secondary-Heading{
+    transform: translateY(150px);
+}
+.firstSection-Btn{
+    transform: translateY(150px);
+    cursor: pointer;
+}
+h1 span{
+    color:rgb(218, 120, 9) ;
+}
+.firstSection-Btn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+
+
+}
+/* Start of Services styling*/
+h2 span{
+    color: rgb(218, 120, 9);
+    margin-left: 60px;
+    
+    margin-top: 100px;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 40px;
+    
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight:lighter;
+    box-sizing: border-box;
+    margin-top: 100px;
+    
+
+}
+.businessDeal{
+    width: 200px;
+    height: 200px;
+    background:url("https://img.freepik.com/free-photo/mid-section-two-unrecognizable-businessmen-shaking-hands-finalize-deal_1098-19499.jpg?size=626&ext=jpg&ga=GA1.1.978593081.1706633327&semt=sph");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid gray ;
+    border-radius: 8px;
+    transition: 0.6s linear ;
+}
+.inner{
+    height: inherit;
+    width: inherit;
+    background:rgba(128, 127, 127, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner span{
+    font-weight: bold;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+.consultancy{
+    width: 200px;
+    height: 200px;
+    background:url("https://img.freepik.com/premium-photo/top-view-business-people-office_52137-18419.jpg?size=626&ext=jpg&ga=GA1.1.978593081.1706633327&semt=sph");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid gray ;
+    border-radius: 8px;
+    transition: 0.6s linear ;
+}
+.internship{
+    width: 200px;
+    height: 200px;
+    background:url("https://img.freepik.com/premium-photo/lead-developer-guiding-colleague_274689-34938.jpg?size=626&ext=jpg&ga=GA1.1.978593081.1706633327&semt=sph");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid gray ;
+    border-radius: 8px;
+    transition: 0.6s linear ;
+}
+.employee{
+    width: 200px;
+    height: 200px;
+    background:url("https://img.freepik.com/free-photo/smiley-businesswoman-posing-city-with-arms-crossed_23-2148767033.jpg?size=626&ext=jpg&ga=GA1.1.978593081.1706633327&semt=sph");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid gray ;
+    border-radius: 8px;
+    transition: 0.6s linear ;
+}
+.secretary{
+    width: 200px;
+    height: 200px;
+    background:url("https://img.freepik.com/premium-photo/cheerful-businesswoman-office-standing-with-documents-looking-camera_360066-17535.jpg?size=626&ext=jpg&ga=GA1.1.978593081.1706633327&semt=sph");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid gray ;
+    border-radius: 8px;  
+    transition: 0.6s linear ; 
+}
+.businessDeal:hover{
+    height: 250px;
+    width: 250px;
+    box-shadow: 8px 8px 8px gray;
+}
+.secretary:hover{
+    height: 250px;
+    width: 250px;
+    box-shadow: 8px 8px 8px gray;
+}
+.internship:hover{
+    height: 250px;
+    width: 250px;
+    box-shadow: 8px 8px 8px gray;
+}
+.employee:hover{
+    height: 250px;
+    width: 250px;
+    box-shadow: 8px 8px 8px gray;
+}
+.consultancy:hover{
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 5px 5px gray;
+}
+/*End of Services Styling*/
+/*Start of main stuff styling*/
+.mainStuff{
+    display: flex;
+    margin-top: 200px;
+
+}
+.first-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    transform: translateY(40px);
+    font-size: larger;
+
+}
+.first-order h2{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    transform: translateX(20px);
+}
+
+.first-order p{
+    opacity: .8;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    height: 300px;
+    width: 400px;
+}
+.second-order{
+    
+    background: url("https://img.freepik.com/free-photo/marketing-ideas-share-research-planning-concept_53876-127431.jpg?size=626&ext=jpg&ga=GA1.1.1886647145.1713602003&semt=sph");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 400px;
+    
+
+}
+.awesome{
+    display: none;
+  
+}
+.awesome span{
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.712);
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 120, 9);
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: .6s linear;
+}
+.second-order:hover{
+    border-radius: 6px;
+  .awesome{
+    height: inherit;
+    width: inherit;
+    background:rgba(128, 127, 127, 0.507);
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+    border-radius: 6px;
+    
+  }
+   
+}
+.awesome span:active{
+    transform: translateY(10px);
+    box-shadow: 5px 5px 5px gray;
+    
+}
+/*End of Main staff styling*/
+/*Start of business-credibity styling*/
+.business-credibity{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 130px;
+    margin-top: 100px;
+
+}
+.first-degree{
+    width: 450px;
+    height: 400px;
+    background: url("https://img.freepik.com/premium-photo/top-view-business-people-office_52137-18419.jpg?size=626&ext=jpg&ga=GA1.1.1886647145.1713602003&semt=sph");
+    background-size: cover;
+    background-position: center;
+
+}
+.first-degree:hover{
+    border-radius: 6px;
+    .awesome{
+      height: inherit;
+      width: inherit;
+      background:rgba(128, 127, 127, 0.507);
+      display:flex;
+      justify-content: center;
+      align-items: end;
+      gap: 30px;
+      border-radius: 6px;
+    }
+}
+.second-degree h2{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    transform: translateX(20px);
+}
+
+
+.second-degree p{
+    opacity: .8;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    height: 300px;
+    width: 400px;
+    transform: translateX(-10px);
+}
+.second-degree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    transform: translateY(40px);
+    font-size: larger;
+
+}
+/*End of business-credibility styling*/
+/*Start Of Project Launch Styling*/
+.project-launch{
+    display: flex;
+    margin-top: 200px;
+}
+.first-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    transform: translateY(40px);
+    font-size: larger;
+
+}
+.first-number h2{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    transform: translateX(20px);
+}
+.first-number p{
+    opacity: .8;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    height: 300px;
+    width: 400px;
+}
+.second-number{
+    background: url("https://img.freepik.com/free-photo/young-woman-yellow-warm-sweater-with-megaphone-speaker-screaming-left-pointing-index-finger_343596-7143.jpg?size=626&ext=jpg&ga=GA1.1.1886647145.1713602003&semt=sph");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 400px;
+
+    
+}
+.second-number span{
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.712);
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 120, 9);
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: .6s linear;
+}
+.second-number:hover{
+    border-radius: 6px;
+  .awesome{
+    height: inherit;
+    width: inherit;
+    background:rgba(128, 127, 127, 0.507);
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+    border-radius: 6px;
+  } 
+}
+.second-number span:active{
+    transform: translateY(10px);
+    box-shadow: 5px 5px 5px gray;
+    
+}
+/*End of [project launch styling*/
+/*Start of customer reviews styling*/
+.unnecessary{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 30px;
+    overflow: hidden;
+    height: 600px;
+    width:400px;
+    box-sizing: border-box;
+    margin-top: 150px;
+    gap: 0px;
+    transform: translateX(450px);
+    box-shadow: 5px 5px 5px black;
+}
+.contain{
+    position: relative;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: 2s linear 5s;
+
+}
+.contain section{
+    flex: 0 0 100%;
+    background:rgba(128, 127, 127, 0.507);
+    
+    
+}
+
+.customerReviews{
+    transform: translateX(0);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 5px 5px 5px black;
+   
+
+   
+}
+
+.head{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head span h3{
+    transform: translateX(70px);
+}
+.head span{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.bottom{
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top:3px solid rgb(189, 73, 7);
+    height: 10px;
+    width: 50px;
+    transform: translateX(70px);
+}
+.aaron{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.profilePhoto{
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 40px;
+    width: 50px;
+    background: url("https://img.freepik.com/free-photo/man-doing-makeup-indoors_23-2150245014.jpg?size=626&ext=jpg&ga=GA1.1.978593081.1706633327&semt=ais");
+   background-size: cover;
+   background-position: center;
+}
+.clientName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+}
+.fName{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(57, 57, 94);
+}
+.companyDetails{
+    transform: translateX(20px);
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(218, 120, 9);
+}
+.reviewContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reviewContent p{
+    opacity: .8;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    padding: 15px;
+    height: 170px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-50px);
+    border-left: 3px solid gray;
+    
+}
+
+.slideShow{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(218, 120, 9);
+}
+.reviewContent .span{
+      padding: 10px;
+    border: 1px solid rgba(212, 121, 121, 0.712);
+    border-radius: 8px;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(218, 120, 9);
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transform: translateY(-20px);
+    text-align: center;
+}
+.reviewContent .span:hover{
+   
+    box-shadow: 5px 5px 5px gray;
+    
+}
+.customersecondReview{
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+.reactions{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-color: black;
+    transform: translateY(-50px);
+   
+}
+.reactions span img{
+    height: 1.3rem;
+    width: 1.3rem;
+    
+
+}
+
+
+.reviewContent span img{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.unnecessary:hover .contain{
+    transform: translateX(-200%);
+}
+.Mazoh{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.profilePhoto-Mazoh{
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 40px;
+    width: 50px;
+   background: url("https://img.freepik.com/free-photo/young-african-american-traveler-man-summer-hat-wearing-black-sunglasses-holding-inflatable-ring-looking-aside-shouting-calling-someone-standing-blue-background_141793-22176.jpg?t=st=1713878886~exp=1713882486~hmac=d3135280236531de2a4b89088c6dac8337a2794e2ee06e221a27b39815ee531b&w=740");
+   background-size: cover;
+   background-position: center;
+}
+.fName-Mazoh{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(57, 57, 94);
+    transform: translateX(-20px); 
+}
+/*End Review Styling*/
+
+/*Start of the statistics section  styling*/
+.statistics{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: translateY(-350px);
+    margin-left: 20px;
+}
+#data{
+    height: 10px;
+    width: 250px;
+    background:rgba(128, 127, 127, 0.507);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#re-evaluate{
+    height: 8px;
+    background-color: rgb(218, 120, 9);
+    border: 1px solid rgb(218, 120, 9) ;
+    border-radius: 5px;
+}
+.covered1{
+    width:calc(205px);
+}
+.covered2{
+    width:calc(146px);
+}
+.covered3{
+    width:calc(108px);
+}
+.covered4{
+    width: calc(96px);
+}
+.covered5{
+    width:calc(25px);
+}
+#StatisticsRows{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+strong{
+    color: rgb(34, 34, 156);
+}
+h4{
+    color: rgb(218, 120, 9);
+    transform: translateY(-550px);
+    margin-left: 150px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.ratings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 24px;
+    transform: translateY(-550px);
+    margin-left: 1100px;
+}
+.ratingStars{
+    display: flex;
+    flex-direction: row;
+    gap:3px
+}
+.ratingStars img{
+    width: 1.7rem;
+    height: 1.7rem;
+    
+}
+.ratingNumber{
+    font-size: 64px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    transform: translateX(20px);
+}
+.totalReviews span{
+    color: rgb(69, 69, 134);
+}
+/*End of the statistics styling*/
+/*Start of the footer styling*/
+.HomePage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.scroll-container{
+    height: 5px;
+    width: 80%;
+    margin:0 auto;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+.scroll-object{
+    height: 100%;
+    width: 0%;
+    
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
